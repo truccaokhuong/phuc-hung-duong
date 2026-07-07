@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌿 Phúc Hưng Đường — Tiệm Thuốc Bắc Đông Y Cổ Truyền</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">🌿 Phúc Hưng <span>Đường</span></a>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active">Trang Chủ</a>
+        <a href="#about" class="nav-link">Về Chúng Tôi</a>
+        <a href="#products" class="nav-link">Sản Phẩm</a>
+        <a href="#remedies" class="nav-link">Bài Thuốc</a>
+        <a href="#contact" class="nav-link">Liên Hệ</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== TOAST ===== -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <span class="hero-tag">✨ Hơn 30 Năm Kinh Nghiệm Chữa Bệnh Cứu Người</span>
+      <h1 class="hero-title">Phúc Hưng Đường<br>Thuốc Bắc Gia Truyền</h1>
+      <p class="hero-sub">Nam dược trị Nam nhân — Thuốc quý từ thiên nhiên, bào chế theo phương pháp cổ truyền, chữa bệnh từ gốc, dưỡng sinh trường thọ.</p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-primary btn-lg">📦 Xem Sản Phẩm</a>
+        <a href="#remedies" class="btn btn-ghost btn-lg">📜 Bài Thuốc Hay</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-icon">🏺</div>
+      <div class="hero-herbs">
+        <span>🌱</span><span>🍃</span><span>🌿</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🏮 Về Phúc Hưng Đường</span>
+        <h2>Truyền Thống & Tâm Huyết</h2>
+        <p>Ba thế hệ gìn giữ tinh hoa Đông y Việt Nam.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card card">
+          <div class="about-icon">📜</div>
+          <h3>Bài Thuốc Gia Truyền</h3>
+          <p>Tổ tiên truyền lại hơn 200 phương thuốc quý, được lưu giữ và cải tiến qua ba thế hệ lương y.</p>
+        </div>
+        <div class="about-card card">
+          <div class="about-icon">⛰️</div>
+          <h3>Dược Liệu Sạch</h3>
+          <p>Thuốc bắc nhập từ các vùng dược liệu nổi tiếng: Lào Cai, Hà Giang, Lạng Sơn — kiểm định chất lượng nghiêm ngặt.</p>
+        </div>
+        <div class="about-card card">
+          <div class="about-icon">🔬</div>
+          <h3>Bào Chế Thủ Công</h3>
+          <p>Mỗi vị thuốc được sao tẩm đúng phương pháp cổ truyền — chưng, nướng, sao vàng, sao đen, tẩm mật, tẩm dấm.</p>
+        </div>
+        <div class="about-card card">
+          <div class="about-icon">💚</div>
+          <h3>Tận Tâm Với Người Bệnh</h3>
+          <p>Bắt mạch kê đơn tỉ mỉ. Mỗi thang thuốc là một lời cam kết về sức khỏe và sự an tâm cho khách hàng.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section id="products" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">📦 Sản Phẩm</span>
+        <h2>Thuốc Bắc & Dược Liệu</h2>
+        <p>Đa dạng chủng loại — từ thuốc thang đến cao đơn hoàn tán.</p>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="menu-tab active" data-cat="all">Tất Cả</button>
+        <button class="menu-tab" data-cat="thuoc-thang">🌿 Thuốc Thang</button>
+        <button class="menu-tab" data-cat="cao-don">🫙 Cao Đơn</button>
+        <button class="menu-tab" data-cat="duoc-lieu">🪵 Dược Liệu</button>
+        <button class="menu-tab" data-cat="tra-thao-moc">🍵 Trà Thảo Mộc</button>
+      </div>
+
+      <div class="menu-grid" id="menu-grid">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REMEDIES ===== -->
+  <section id="remedies" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">📜 Bài Thuốc</span>
+        <h2>Phương Thuốc Trị Bệnh</h2>
+        <p>Các bài thuốc cổ truyền hiệu quả cho từng chứng bệnh thường gặp.</p>
+      </div>
+      <div class="remedy-grid">
+        <div class="remedy-card card">
+          <div class="remedy-icon" style="background:#f0d9a0;">🫁</div>
+          <h3>Bài Thuốc Bổ Phế</h3>
+          <p class="remedy-desc">Trị ho khan, viêm họng, hen suyễn. Kết hợp tang bạch bì, cát cánh, cam thảo, mạch môn.</p>
+          <span class="remedy-tag">Hô Hấp</span>
+        </div>
+        <div class="remedy-card card">
+          <div class="remedy-icon" style="background:#d4e6c3;">🩸</div>
+          <h3>Bài Thuốc Hoạt Huyết</h3>
+          <p class="remedy-desc">Lưu thông khí huyết, giảm đau nhức xương khớp. Đương quy, xuyên khung, bạch thược, thục địa.</p>
+          <span class="remedy-tag">Xương Khớp</span>
+        </div>
+        <div class="remedy-card card">
+          <div class="remedy-icon" style="background:#e8d5c4;">🧠</div>
+          <h3>Bài Thuốc An Thần</h3>
+          <p class="remedy-desc">Trị mất ngủ, căng thẳng, suy nhược thần kinh. Toan táo nhân, viễn chí, liên tâm, long nhãn.</p>
+          <span class="remedy-tag">Thần Kinh</span>
+        </div>
+        <div class="remedy-card card">
+          <div class="remedy-icon" style="background:#f5d5c8;">🍽️</div>
+          <h3>Bài Thuốc Kiện Tỳ</h3>
+          <p class="remedy-desc">Trị chứng ăn không tiêu, bụng đầy trướng, tỳ vị hư nhược. Bạch truật, phục linh, cam thảo, nhân sâm.</p>
+          <span class="remedy-tag">Tiêu Hóa</span>
+        </div>
+        <div class="remedy-card card">
+          <div class="remedy-icon" style="background:#c8e0d9;">🫀</div>
+          <h3>Bài Thuốc Dưỡng Tâm</h3>
+          <p class="remedy-desc">Ổn định huyết áp, đường huyết, bảo vệ tim mạch. Đan sâm, tam thất, hà thủ ô, ngưu tất.</p>
+          <span class="remedy-tag">Tim Mạch</span>
+        </div>
+        <div class="remedy-card card">
+          <div class="remedy-icon" style="background:#e6d5f0;">💆</div>
+          <h3>Bài Thuốc Bổ Thận</h3>
+          <p class="remedy-desc">Trị đau lưng, mỏi gối, di tinh, tiểu đêm. Đỗ trọng, cốt toái bổ, ba kích, nhục thung dung.</p>
+          <span class="remedy-tag">Thận & Sinh Dục</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GUARANTEES ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">✅ Cam Kết</span>
+        <h2>Vì Sao Chọn Phúc Hưng Đường?</h2>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial card">
+          <div class="testimonial-stars">🌿🌿🌿🌿🌿</div>
+          <p>"Dược liệu sạch, sao tẩm đúng vị, đủ liều. Giá cả hợp lý hơn nhiều nơi tôi từng mua thuốc bắc."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:#5a8f3c;">NT</div>
+            <div>
+              <strong>Nguyễn Thành</strong>
+              <span>Khách quen 5 năm</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial card">
+          <div class="testimonial-stars">🌿🌿🌿🌿🌿</div>
+          <p>"Tôi bị mất ngủ kinh niên, uống 3 thang thuốc An Thần của tiệm là ngủ ngon hẳn. Lương y bắt mạch rất giỏi."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:#8b6f4e;">HL</div>
+            <div>
+              <strong>Hương Lan</strong>
+              <span>Nội trợ, Quận 5</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial card">
+          <div class="testimonial-stars">🌿🌿🌿🌿🌿</div>
+          <p>"Cao bổ thận của Phúc Hưng Đường uống 1 liệu trình mà đỡ đau lưng hẳn. Giờ cả nhà tôi ai cũng dùng."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:#6b4226;">MV</div>
+            <div>
+              <strong>Mạnh Vũ</strong>
+              <span>Tài xế, Quận 6</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">📍 Liên Hệ</span>
+        <h2>Ghé Tiệm — Bắt Mạch Kê Đơn</h2>
+        <p>Chúng tôi luôn sẵn sàng tư vấn miễn phí cho bạn.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <strong>Địa chỉ</strong>
+              <p>456 Hải Thượng Lãn Ông, Phường 10, Quận 5, TP. Hồ Chí Minh</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🕐</span>
+            <div>
+              <strong>Giờ mở cửa</strong>
+              <p>Thứ 2 - Thứ 7: 7:30 - 20:00<br>Chủ Nhật: 8:00 - 17:00</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <div>
+              <strong>Điện thoại</strong>
+              <p>0902 888 456 — Lương y Phúc</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <p>phuchungduong@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🏥</span>
+            <div>
+              <strong>Bắt Mạch Online</strong>
+              <p>Đặt lịch qua Zalo: 0902 888 456</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form card">
+          <h3 style="margin-bottom:16px;">📩 Gửi Câu Hỏi Tư Vấn</h3>
+          <form id="contact-form" onsubmit="handleContactSubmit(event)">
+            <div class="form-group">
+              <label class="form-label" for="name">Họ và tên</label>
+              <input type="text" id="name" class="form-input" placeholder="Nguyễn Văn A" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="phone">Số điện thoại</label>
+              <input type="tel" id="phone" class="form-input" placeholder="090x xxx xxx" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Triệu chứng / Câu hỏi</label>
+              <textarea id="message" class="form-textarea" rows="4" placeholder="Mô tả triệu chứng hoặc câu hỏi bạn cần lương y tư vấn..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">📨 Gửi Tư Vấn</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>🌿 Phúc Hưng Đường</h3>
+          <p>Nam dược trị Nam nhân — Gìn giữ tinh hoa Đông y Việt qua ba thế hệ.</p>
+          <div class="footer-social">
+            <span>📘</span><span>📸</span><span>💬</span>
+          </div>
+          <p class="footer-cert">🏅 Giấy phép hành nghề Y Dược số: 0312345678</p>
+        </div>
+        <div class="footer-links">
+          <h4>Khám Phá</h4>
+          <a href="#home">Trang Chủ</a>
+          <a href="#about">Về Chúng Tôi</a>
+          <a href="#products">Sản Phẩm</a>
+          <a href="#remedies">Bài Thuốc</a>
+          <a href="#contact">Liên Hệ</a>
+        </div>
+        <div class="footer-links">
+          <h4>Dịch Vụ</h4>
+          <span>Bắt mạch kê đơn</span>
+          <span>Bốc thuốc theo thang</span>
+          <span>Sắc thuốc tại tiệm</span>
+          <span>Giao thuốc tận nơi</span>
+          <span>Tư vấn online</span>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Nhận Tin Sức Khỏe</h4>
+          <p>Đăng ký nhận bài thuốc hay và mẹo dưỡng sinh mỗi tuần.</p>
+          <div class="footer-subscribe">
+            <input type="email" class="form-input" placeholder="Email của bạn" style="flex:1;">
+            <button class="btn btn-primary btn-sm" onclick="showToast('Đã đăng ký nhận tin! 🌿', 'success')">Đăng Ký</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Phúc Hưng Đường. Gìn giữ tinh hoa Đông y Việt Nam. 🌿</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
